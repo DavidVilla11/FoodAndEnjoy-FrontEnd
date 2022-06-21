@@ -10,7 +10,7 @@ export default function ShowRestaurants ({ restaurantes, handleClickAdd}) {
     setLoading(false)
     setTimeout(() => {
       setLoading(true)
-    },550)
+    },850)
 }, [restaurantes] );
 
   return (
