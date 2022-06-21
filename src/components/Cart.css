@@ -1,0 +1,92 @@
+.carrito{
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #0000003b;
+    margin-left: 80%;
+    padding: 15px;
+    height: 51%;
+    align-items: flex-end;
+    overflow: auto;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #0000003b;
+    padding: 15px;
+    height: 15%;
+    top: 55%;
+    left: 80%;
+}
+
+.pago{
+    margin-top: 10px;
+}
+
+.card_btn {
+    width: 50%;
+    margin-bottom:1rem ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: 2px solid #d50000;
+    background: transparent;
+    color: #d50000;
+    border-radius: 0.5rem;
+    transition: transform 200ms ease-in;
+  }
+  
+  .card_btn:hover{
+    background: #d50000;
+    color: white;
+  }
+
+.display{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #00000025;
+    background-color: #00000010;
+}
+
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto h4{
+    padding: 10px;
+}
+
+.producto input{
+    width: 20%;
+    height: 20%;
+    margin-top:2px;
+}
+
+.producto a{
+    
+    margin-bottom:1rem ;
+    margin-top: 1rem;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.producto a:hover{
+    transform: scale(1.06);
+}
